@@ -9,7 +9,8 @@ import Error from "./pages/Error";
 //actions 
 import Dashboard, { dashboardLoader } from "./pages/Dashboard";
 import { logoutAction } from "./actions/logout";
-import { dashboardAction } from "./components/Intro";
+import { dashboardAction } from "./pages/Dashboard";
+
 
 // toastify
 import "react-toastify/dist/ReactToastify.css";

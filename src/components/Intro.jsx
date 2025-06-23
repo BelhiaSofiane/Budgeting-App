@@ -8,21 +8,7 @@ import  { UserPlusIcon } from '@heroicons/react/24/outline'
 // assets
 import illustration from '../assets/illustration.jpg'
 
-// action
-export async function dashboardAction({ request }) {
-    const data = await request.formData();
-    const userName = data.get('userName');
-    
-    if (!userName) {
-        return null;
-    }
-    
-    // save the user name in local storage
-    localStorage.setItem('userName', userName);
-    
-    // return a success message
-    return { success: true, userName };
-}
+
 
 const Intro = () => {
   return (
@@ -37,6 +23,7 @@ const Intro = () => {
             </p>
             <Form method='post'>
                 <input type="text" name='userName' required placeholder="What's Your Name?" aria-label='Your Name' autoComplete='given-name' />
+                <input type="hidden" name="_action" value='newUser'/>
                 <button type='submit' className='btn btn--dark'>
                     <span>
                         Start Budgeting
