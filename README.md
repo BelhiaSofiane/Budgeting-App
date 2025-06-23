@@ -1,27 +1,22 @@
-# 💰 Budgeting App
+# 💰 Budgeting App (React + Vite + React Router)
 
-A personal budgeting application to **track income and expenses**, **manage budgets**, and **visualize your financial habits**. Built as part of CS50 with a focus on simplicity and user-centric design.
-
----
-
-## 🔧 Features
-
-- **Add / View Income & Expenses** – Log sources of income and categorize expenses.
-- **Budgets Management** – Set monthly budgets and monitor spending.
-- **Insights & Visualizations** – See spending breakdowns via charts.
-- **Delete & Edit Transactions** – Keep your data accurate and up to date.
+A simple budgeting frontend application built with React and Vite. It allows users to track expenses and incomes, manage budgets, and view feedback via notifications.
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Tech Stack
 
-Html , Css , Js , React
+- **Frontend**: React 18 powered by Vite
+- **Routing**: React Router v6
+- **Icons**: Heroicons React
+- **Alerts & Feedback**: react-toastify
+- **Build Tooling**: Vite with React SWC plugin
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**  
+1. **Clone the repo**  
    ```bash
    git clone https://github.com/BelhiaSofianeCS50/Budgeting-App.git
    cd Budgeting-App
