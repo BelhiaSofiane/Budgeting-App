@@ -6,7 +6,7 @@ import { formatCurrency, formatDate, getAllMatchingItems } from "../helpers"
 // library import
 import { TrashIcon } from "@heroicons/react/24/outline"
 
-const ExpenseItem = ({ expense }) => {
+const ExpenseItem = ({ expense, showBudget }) => {
     const fetcher = useFetcher()
 
     const budget = getAllMatchingItems({
@@ -20,7 +20,8 @@ const ExpenseItem = ({ expense }) => {
         <td>{expense.name}</td>
         <td>{formatCurrency(expense.amount)}</td>
         <td>{formatDate(expense.createdAt)}</td>
-        <td><Link 
+        {showBudget && (<td>
+            <Link 
             to={`/budget/${budget.id}`}
             style={{
                 "--accent": budget.color,
@@ -28,7 +29,7 @@ const ExpenseItem = ({ expense }) => {
             >
             {budget.name}
             </Link>
-        </td>
+        </td>)}
         <td>
             <fetcher.Form method="post">
                 <input type="hidden" name="_action" value="deleteExpense" />
