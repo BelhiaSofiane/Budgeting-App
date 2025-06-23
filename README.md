@@ -15,12 +15,7 @@ A personal budgeting application to **track income and expenses**, **manage budg
 
 ## 🛠️ Tech Stack
 
-| Component    | Technology                                    |
-|--------------|-----------------------------------------------|
-| Frontend     | React (custom or UI-library based)            |
-| Backend      | Node.js + Express *or* Python + Flask         |
-| Database     | MongoDB, PostgreSQL, or SQLite                |
-| Charts       | Chart.js or similar visualization library     |
+Html , Css , Js , React
 
 ---
 
