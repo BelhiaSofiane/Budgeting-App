@@ -7,11 +7,12 @@ import Main, { mainLoader } from "./layouts/main";
 import Error from "./pages/Error";
 import BudgetPage, { budgetAction, budgetLoader } from "./pages/BudgetPage";
 import ExpensesPage, { expensesAction, expensesLoader } from "./pages/ExpensesPage";
+import { dashboardAction } from "./pages/Dashboard";
+import Dashboard, { dashboardLoader } from "./pages/Dashboard";
 
 //actions 
-import Dashboard, { dashboardLoader } from "./pages/Dashboard";
 import { logoutAction } from "./actions/logout";
-import { dashboardAction } from "./pages/Dashboard";
+import { deleteBudget } from "./actions/deleteBudget"
 
 
 // library
@@ -44,6 +45,12 @@ const router = createBrowserRouter([
         loader: budgetLoader,
         action: budgetAction,
         errorElement: <Error />,
+        children: [
+          {
+            path: "delete",
+            action: deleteBudget,
+          }
+        ]
       },
       {
         path: "logout",
