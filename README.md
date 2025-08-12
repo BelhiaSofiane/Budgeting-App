@@ -1,6 +1,6 @@
 # BUDGETING-APP
 
-*Master Your Finances, Empower Your Future Today*
+*Master Your Finances, Empower Your Future Today.*
 
 ![last commit](https://img.shields.io/github/last-commit/BelhiaSofianeCS50/Budgeting-App?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-67.5%25-yellow?style=flat-square)
@@ -152,3 +152,4 @@ This project is open source and available under the [MIT License](LICENSE).
 **Belhia Sofiane** - [@BelhiaSofianeCS50](https://github.com/BelhiaSofianeCS50)
 
 Project Link: [https://github.com/BelhiaSofianeCS50/Budgeting-App](https://github.com/BelhiaSofianeCS50/Budgeting-App)
+
