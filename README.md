@@ -19,7 +19,7 @@
 ---
 ## 🖥️ Live Demo
 
-👉 [Play the Quiz](https://budgeting-app-vdjn.onrender.com/)
+👉 [Start Budgeting](https://budgeting-app-vdjn.onrender.com/)
 
 ---
 
@@ -157,6 +157,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Belhia Sofiane** - [@BelhiaSofianeCS50](https://github.com/BelhiaSofianeCS50)
 
 Project Link: [https://github.com/BelhiaSofianeCS50/Budgeting-App](https://github.com/BelhiaSofianeCS50/Budgeting-App)
+
 
 
 
